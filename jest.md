@@ -1,7 +1,5 @@
 <div align="center" markdown="1">
 
-<img src="https://d3vv6lp55qjaqc.cloudfront.net/items/2D2K45312x0M1q2C0a3P/jest-logo.svg" width="200">
-
 <h1>Jest cheat sheet</h1>
 
 </div>
@@ -12,44 +10,7 @@ _I recommend [Mrm](https://github.com/sapegin/mrm-tasks/tree/master/packages/mrm
 
 <!-- To update run: npx markdown-toc --maxdepth 3 -i Readme.md -->
 
-<!-- toc -->
 
-- [Test structure](#test-structure)
-- [Matchers](#matchers)
-  - [Basic matchers](#basic-matchers)
-  - [Truthiness](#truthiness)
-  - [Numbers](#numbers)
-  - [Strings](#strings)
-  - [Arrays](#arrays)
-  - [Objects](#objects)
-  - [Exceptions](#exceptions)
-  - [Snapshots](#snapshots)
-  - [Mock functions](#mock-functions)
-  - [Misc](#misc)
-  - [Promise matchers (Jest 20+)](#promise-matchers-jest-20)
-- [Async tests](#async-tests)
-  - [async/await](#asyncawait)
-  - [Promises](#promises)
-  - [done() callback](#done-callback)
-- [Mocks](#mocks)
-  - [Mock functions](#mock-functions-1)
-  - [Mock modules using `jest.mock` method](#mock-modules-using-jestmock-method)
-  - [Mock modules using a mock file](#mock-modules-using-a-mock-file)
-  - [Mock object methods](#mock-object-methods)
-  - [Mock getters and setters (Jest 22.1.0+)](#mock-getters-and-setters-jest-2210)
-  - [Mock getters and setters](#mock-getters-and-setters)
-  - [Clearing and restoring mocks](#clearing-and-restoring-mocks)
-  - [Accessing the original module when using mocks](#accessing-the-original-module-when-using-mocks)
-- [Data-driven tests (Jest 23+)](#data-driven-tests-jest-23)
-- [Skipping tests](#skipping-tests)
-- [Testing modules with side effects](#testing-modules-with-side-effects)
-- [Usage with Babel and TypeScript](#usage-with-babel-and-typescript)
-- [Resources](#resources)
-- [You may also like](#you-may-also-like)
-- [Contributing](#contributing)
-- [Author and license](#author-and-license)
-
-<!-- tocstop -->
 
 ## Test structure
 
